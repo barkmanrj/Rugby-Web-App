@@ -1,0 +1,65 @@
+{
+  "name": "12 crash ball",
+  "focus": "Straight running to win the gain line",
+  "attack": "ours",
+  "roles": {
+    "9": "Passes flat to 10 from the ruck.",
+    "10": "Runs at the line, then gives a short pass to 12.",
+    "12": "Holds depth, then runs a hard, straight line onto 10’s outside shoulder.",
+    "13": "Stays square as the next option if 12 is held."
+  },
+  "frames": [
+    {
+      "pos": {
+        "9": [20, 52],
+        "10": [27, 56],
+        "12": [33, 58],
+        "13": [40, 59],
+        "15": [46, 62],
+        "o10": [27, 46],
+        "o12": [34, 46],
+        "o13": [41, 46]
+      },
+      "ball": "9",
+      "cap": "Ruck ball. 9 is ready to pass. 12 holds his depth behind 10."
+    },
+    {
+      "pos": {
+        "10": [28, 53.5],
+        "12": [31, 56],
+        "13": [39, 56.5],
+        "15": [45, 59],
+        "o10": [28, 48.5],
+        "o12": [33, 48.5],
+        "o13": [40, 48.5]
+      },
+      "ball": "10",
+      "cap": "9 passes back to 10, who runs flat at the line. 12 steps in on his outside shoulder."
+    },
+    {
+      "pos": {
+        "10": [28.5, 50.5],
+        "12": [31, 53.2],
+        "13": [38.5, 54],
+        "15": [44, 56],
+        "o10": [28.5, 49],
+        "o12": [32, 49.5],
+        "o13": [39, 49.5]
+      },
+      "ball": "12",
+      "cap": "10 draws his defender, then pops a short pass back to 12, running hard and straight."
+    },
+    {
+      "pos": {
+        "10": [28, 50],
+        "12": [32, 45.5],
+        "13": [37.5, 50],
+        "15": [43, 52.5],
+        "o10": [29, 49.5],
+        "o12": [33.5, 48],
+        "o13": [38.5, 48.5]
+      },
+      "cap": "12 hits the gap between their 10 and 12 at pace and crosses the gain line."
+    }
+  ]
+}
